@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/users/Maulik/MNIST_data'
+let g:netrw_dirhist_2='/users/Maulik/tf'
+let g:netrw_dirhist_3='/users/Maulik/logistic_regression'
+let g:netrw_dirhist_4='/users/Maulik/logistic_regression_fayi'

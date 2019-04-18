@@ -1,0 +1,76 @@
+nohup: ignoring input
+2019-04-17 18:19:56.239336: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-04-17 18:19:56.267976: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194840000 Hz
+2019-04-17 18:19:56.270537: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x3d34620 executing computations on platform Host. Devices:
+2019-04-17 18:19:56.270567: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-04-17 18:19:56.273923: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job ps -> {0 -> node0:2222}
+2019-04-17 18:19:56.273955: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job worker -> {0 -> localhost:2223, 1 -> node1:2222, 2 -> node2:2222}
+2019-04-17 18:19:56.278708: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:391] Started server with target: grpc://localhost:2223
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From part2.py:66: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From part2.py:102: __init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2019-04-17 18:19:57.516852: I tensorflow/core/distributed_runtime/master_session.cc:1192] Start master session f541405ab6a1f8d6 with config: 
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting standard services.
+WARNING:tensorflow:Standard services need a 'logdir' passed to the SessionManager
+INFO:tensorflow:Starting queue runners.
+2019-04-17 18:20:22.272545: W tensorflow/core/distributed_runtime/master_session.cc:2029] Unavailable: OS Error
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+Epoch: 1, cost: 0.9183681335774334
+time spent: 2.904475
+Epoch: 2, cost: 0.5170376173474572
+time spent: 2.768682
+Epoch: 3, cost: 0.4464680770310483
+time spent: 2.745242
+Epoch: 4, cost: 0.412389962619001
+time spent: 2.718939
+Epoch: 5, cost: 0.3912449090318243
+time spent: 2.736975
+Epoch: 6, cost: 0.3762758667360654
+time spent: 2.751893
+Epoch: 7, cost: 0.36511166087605756
+time spent: 2.722937
+Epoch: 8, cost: 0.3564129232818431
+time spent: 2.710666
+Epoch: 9, cost: 0.3492167325995188
+time spent: 2.73662
+Epoch: 10, cost: 0.3431640709801154
+time spent: 2.713393
+Epoch: 11, cost: 0.3380103655836802
+time spent: 2.84728
+Epoch: 12, cost: 0.333542488461191
+time spent: 2.730709
+Epoch: 13, cost: 0.329635215022347
+time spent: 2.77683
+Epoch: 14, cost: 0.32662339383905625
+time spent: 2.849777
+Epoch: 15, cost: 0.3250466445359317
+time spent: 2.707991

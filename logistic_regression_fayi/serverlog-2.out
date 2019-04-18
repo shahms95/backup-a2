@@ -1,0 +1,73 @@
+nohup: ignoring input
+2019-04-17 18:19:56.005592: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-04-17 18:19:56.035426: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194825000 Hz
+2019-04-17 18:19:56.038544: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x3eed310 executing computations on platform Host. Devices:
+2019-04-17 18:19:56.038581: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-04-17 18:19:56.041523: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job ps -> {0 -> node0:2222}
+2019-04-17 18:19:56.041552: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job worker -> {0 -> node0:2223, 1 -> node1:2222, 2 -> localhost:2222}
+2019-04-17 18:19:56.046229: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:391] Started server with target: grpc://localhost:2222
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From part2.py:66: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From part2.py:102: __init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+2019-04-17 18:19:57.286950: I tensorflow/core/distributed_runtime/master_session.cc:1192] Start master session 563c4f5cfca65c61 with config: 
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting queue runners.
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+Epoch: 1, cost: 0.9311135086688133
+time spent: 2.633865
+Epoch: 2, cost: 0.5340779170664871
+time spent: 2.283572
+Epoch: 3, cost: 0.46093252469192797
+time spent: 2.291752
+Epoch: 4, cost: 0.42501572855494235
+time spent: 2.273428
+Epoch: 5, cost: 0.4022377439791499
+time spent: 2.30512
+Epoch: 6, cost: 0.38622963203625277
+time spent: 2.30032
+Epoch: 7, cost: 0.3743126560341231
+time spent: 2.318603
+Epoch: 8, cost: 0.36482143385843774
+time spent: 2.342626
+Epoch: 9, cost: 0.3570400816744022
+time spent: 2.334745
+Epoch: 10, cost: 0.3504768137498333
+time spent: 2.338697
+Epoch: 11, cost: 0.3448542904853821
+time spent: 2.365357
+Epoch: 12, cost: 0.3400613300637761
+time spent: 2.43857
+Epoch: 13, cost: 0.33570395732467817
+time spent: 2.424628
+Epoch: 14, cost: 0.3319459053061222
+time spent: 2.403185
+Epoch: 15, cost: 0.3286272444779224
+time spent: 2.413509

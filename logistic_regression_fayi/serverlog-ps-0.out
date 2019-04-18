@@ -1,0 +1,28 @@
+2019-04-17 18:19:56.238378: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-04-17 18:19:56.266503: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194840000 Hz
+2019-04-17 18:19:56.269691: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x48646e0 executing computations on platform Host. Devices:
+2019-04-17 18:19:56.269711: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-04-17 18:19:56.272885: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job ps -> {0 -> localhost:2222}
+2019-04-17 18:19:56.272920: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job worker -> {0 -> node0:2223, 1 -> node1:2222, 2 -> node2:2222}
+2019-04-17 18:19:56.276785: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:391] Started server with target: grpc://localhost:2222
+2019-04-17 18:28:47.018897: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:28:57.019065: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:29:07.019141: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:29:17.019226: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:29:27.019297: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:29:37.019379: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:29:47.019440: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:29:57.019534: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:30:07.019607: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:30:17.019684: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:30:27.019742: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:30:37.019819: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:30:47.019890: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:30:57.019969: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:31:07.020030: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:31:17.020108: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:31:27.020180: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:31:37.020257: I tensorflow/core/distributed_runtime/master.cc:267] CreateSession still waiting for response from worker: /job:worker/replica:0/task:2
+2019-04-17 18:31:42.019919: E tensorflow/core/distributed_runtime/master.cc:315] CreateSession failed because worker /job:worker/replica:0/task:2 returned error: Unavailable: OS Error
+2019-04-17 18:32:13.723433: E tensorflow/core/distributed_runtime/master.cc:315] CreateSession failed because worker /job:worker/replica:0/task:2 returned error: Unavailable: OS Error
+2019-04-17 18:35:31.867907: E tensorflow/core/distributed_runtime/master.cc:315] CreateSession failed because worker /job:worker/replica:0/task:2 returned error: Unavailable: OS Error

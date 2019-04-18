@@ -1,0 +1,78 @@
+nohup: ignoring input
+2019-04-16 16:47:49.050681: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-04-16 16:47:49.061573: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2194830000 Hz
+2019-04-16 16:47:49.063995: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x4fdc8b0 executing computations on platform Host. Devices:
+2019-04-16 16:47:49.064027: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+2019-04-16 16:47:49.066485: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job ps -> {0 -> node0:2222}
+2019-04-16 16:47:49.066506: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:252] Initialize GrpcChannelCache for job worker -> {0 -> node0:2223, 1 -> localhost:2222, 2 -> node2:2222}
+2019-04-16 16:47:49.069966: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:391] Started server with target: grpc://localhost:2222
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From Part1.py:72: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: __init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From Part1.py:111: __init__ (from tensorflow.python.training.sync_replicas_optimizer) is deprecated and will be removed in a future version.
+Instructions for updating:
+The `SyncReplicaOptimizer` class is deprecated. For synchrononous training, please use [Distribution Strategies](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/distribute).
+INFO:tensorflow:SyncReplicasV2: replicas_to_aggregate=3; total_num_replicas=3
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/data_flow_ops.py:1294: to_int64 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/tensorflow/python/training/sync_replicas_optimizer.py:352: __init__ (from tensorflow.python.training.queue_runner_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+To construct input pipelines, use the `tf.data` module.
+WARNING:tensorflow:From Part1.py:128: __init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+INFO:tensorflow:Running local_init_op.
+2019-04-16 16:47:49.942798: I tensorflow/core/distributed_runtime/master_session.cc:1192] Start master session 649d4ca93cf639bb with config: 
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Starting queue runners.
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+('Epoch time:', 2.7112609999999995)
+('Epoch time:', 2.711855)
+('Epoch time:', 2.6948000000000008)
+('Epoch time:', 2.5550429999999995)
+('Epoch time:', 2.586018000000001)
+('Epoch time:', 2.6557790000000026)
+('Epoch time:', 2.6503689999999978)
+('Epoch time:', 2.5908260000000034)
+('Epoch time:', 2.6487219999999994)
+('Epoch time:', 2.627098)
+('Epoch time:', 2.609693)
+('Epoch time:', 2.506401000000004)
+('Epoch time:', 2.596460999999998)
+('Epoch time:', 2.6323969999999974)
+('Epoch time:', 2.7097729999999984)
+('Epoch time:', 2.6224540000000047)
+('Epoch time:', 2.666647999999995)
+('Epoch time:', 2.643452999999994)
+('Epoch time:', 2.682719000000006)
+('Epoch time:', 2.7211640000000017)
+('Epoch time:', 2.678514)
+('Epoch time:', 2.638288000000003)
+('Epoch time:', 2.638200999999995)
+('Epoch time:', 2.674734000000001)
+('Epoch time:', 2.6327209999999894)
